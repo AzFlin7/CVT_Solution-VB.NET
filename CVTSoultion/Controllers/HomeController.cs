@@ -22,6 +22,15 @@ namespace CVTSoultion.Controllers
             return View();
         }
 
+        public IActionResult News_publications2()
+        {
+            return View();
+        }
+        public IActionResult News_publications3()
+        {
+            return View();
+        }
+
         public IActionResult About()
         {
             return View();
