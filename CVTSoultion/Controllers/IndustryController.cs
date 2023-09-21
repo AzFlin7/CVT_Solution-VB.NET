@@ -2,26 +2,35 @@
 
 namespace CVTSoultion.Controllers
 {
+    [Route("industry")]
     public class IndustryController : Controller
     {
-        public IActionResult Process_control()
+        [Route("process-control")]
+        public IActionResult ProcessControl()
         {
             return View();
         }
 
-        public IActionResult Plastic_ploymers()
+        [Route("plastic-ploymers")]
+        public IActionResult PlasticPloymers()
         {
             return View();
         }
-        public IActionResult Pharmaceutical_production()
+
+        [Route("pharmaceutical-production")]
+        public IActionResult PharmaceuticalProduction()
         {
             return View();
         }
-        public IActionResult Paint_coatings()
+
+        [Route("paint-coatings")]
+        public IActionResult PaintCoatings()
         {
             return View();
         }
-        public IActionResult Chemical_manufacturing()
+
+        [Route("chemical-manufacturing")]
+        public IActionResult ChemicalManufacturing()
         {
             return View();
         }

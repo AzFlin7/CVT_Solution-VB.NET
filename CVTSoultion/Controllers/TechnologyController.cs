@@ -2,23 +2,29 @@
 
 namespace CVTSoultion.Controllers
 {
+    [Route("technology")]
     public class TechnologyController : Controller
     {
-        public IActionResult Continuous_production()
+        [Route("continuous-production")]
+        public IActionResult ContinuousProduction()
+        {
+            return View();
+        }
+        
+        [Route("process-monitoring")]
+        public IActionResult ProcessMonitoring()
         {
             return View();
         }
 
-        public IActionResult Process_monitoring()
-        {
-            return View();
-        }
-        public IActionResult Inline_spectroscopy()
+        [Route("inline-spectroscopy")]
+        public IActionResult InlineSpectroscopy()
         {
             return View();
         }
 
-        public IActionResult Industry_4_solutions()
+        [Route("industry-4-solutions")]
+        public IActionResult Industry4Solutions()
         {
             return View();
         }
