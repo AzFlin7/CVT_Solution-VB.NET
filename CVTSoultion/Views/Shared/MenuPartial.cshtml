@@ -1,0 +1,91 @@
+﻿@*
+    For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
+*@
+@{
+}
+
+@*<!-- Start header  -->*@
+<header id="mu-header">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-12 col-md-12">
+                <div class="mu-header-area">
+                    <div class="row">
+                        <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6">
+                            <div class="mu-header-top-left">
+                                <div class="mu-top-email">
+                                    <i class="fa fa-envelope"></i>
+                                    <span><a href="mailto:info@colvistec.de?subject=Request via  Webpage">info@colvistec.de</a></span>
+                                </div>
+                                <div class="mu-top-phone">
+                                    <i class="fa fa-phone"></i>
+                                    <span>+49 30 6392 7816</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6">
+                            <div class="mu-header-top-right">
+                                <nav>
+                                    <ul class="mu-top-social-nav">
+                                        <li><a href="https://www.linkedin.com/company/colvistec-ag" target="_blank"><span class="fa fa-linkedin"></span></a></li>
+                                        <li><a href="/"><img src="~/img/images/en.jpg" /></a>
+                                            <a href="de_default.aspx"><img src="~/img/images/de.jpg" /></a></li>
+                                    </ul>
+                                </nav>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</header>
+@*<!-- End header  -->
+<!-- Start menu -->*@
+<section id="mu-menu">
+    <nav class="navbar navbar-default" role="navigation">
+        <div class="container">
+            <div class="navbar-header">
+                @*<!-- FOR MOBILE VIEW COLLAPSED BUTTON -->*@
+                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                @*<!-- LOGO -->
+                <!-- TEXT BASED LOGO -->*@
+                <a class="navbar-brand" href="/"><img src="~/img/logo.jpg" /></a>
+                @*<!-- IMG BASED LOGO  -->
+                <!-- <a class="navbar-brand" href="index.html"><img src="assets/img/logo.png" alt="logo"></a> -->*@
+            </div>
+            <div id="navbar" class="navbar-collapse collapse">
+                <ul id="top-menu" class="nav navbar-nav navbar-right main-nav">
+                    <li><a href="/">Home</a></li>
+                    <li class="dropdown">
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown">Industries <span class="fa fa-angle-down"></span></a>
+                        <ul class="dropdown-menu" role="menu">
+                            <li><a href="/industry/process_control">Process Control</a></li>
+                            <li><a href="/industry/plastic_ploymers">Plastic & Polymers</a></li>
+                            <li><a href="/industry/pharmaceutical_production">Pharmaceutical Production</a></li>
+                            <li><a href="/industry/paint_coatings">Paint & Coatings</a></li>
+                            <li><a href="/industry/chemical_manufacturing">Chemical Manufacturing</a></li>
+                        </ul>
+                    </li>
+                    <li class="dropdown">
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown">Technology <span class="fa fa-angle-down"></span></a>
+                        <ul class="dropdown-menu" role="menu">
+                            <li><a href="/technology/continuous_production">Continuous Production</a></li>
+                            <li><a href="/technology/process_monitoring">Process Monitoring</a></li>
+                            <li><a href="/technology/inline_spectroscopy">Inline Spectroscopy</a></li>
+                            <li><a href="/technology/industry_4_solutions">Industry 4.0. Solutions</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="/home/news_publications">News and Publications</a></li>
+                    <li><a href="/home/about">About</a></li>
+                </ul>
+            </div>@*<!--/.nav-collapse -->*@
+        </div>
+    </nav>
+</section>
+@*<!-- End menu -->*@
